@@ -54,15 +54,6 @@ h3{
 
 /*********************************************************************************/
 
-
-
-@media (max-width:425px) {
-    body{
-        background-size: cover;
-        background-position: center;
-    }
-}
-
 /* CONTENEDOR */
 
 .registro{
@@ -284,6 +275,49 @@ h3{
     cursor: pointer;
 }
 
+/* MEDIA-QUERIES */
+
+@media (max-width: 425px) {
+    body{
+        background-position: center;
+    }
+
+    .registro{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo-p{
+        font-size: 3rem;
+    }
+
+    .formulario{
+        width: 30rem;
+    }
+}
+
+@media (min-width:426px) and (max-width:768px) {
+    
+    .titulo-p{
+        font-size: 5rem;
+    }
+
+    .formulario{
+        width: 40rem;
+    }
+}
+
+@media (min-width: 800px) and (max-width:1024px) {
+    
+    .titulo-p{
+        font-size: 7rem;
+    }
+
+    .formulario{
+        width: 50rem;
+    }
+}
 
 
 
