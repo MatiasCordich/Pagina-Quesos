@@ -154,7 +154,7 @@ h3{
     background-color: var(--negro);
     border-radius: 6rem;
     padding: 0 2rem;
-    transition: 0.5s;
+    transition: 0.9s;
 }
 
 
@@ -233,11 +233,13 @@ h3{
 /**********************Login********************/
 
 .navbar__login{
-
     width: 15%;
 }
 
 .navbar__login a{
+    border: 1px solid var(--blanco);
+    padding: 1rem 3rem;
+    border-radius: 1.5rem;
     color:var(--blanco);
     font-size: 2rem;
     letter-spacing: 0.5px;
@@ -247,10 +249,8 @@ h3{
     background-color: var(--blanco);
     font-weight: bold;
     color: var(--negro);
-    padding: 0.5rem 2rem;
-    border-radius: 6rem;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.9s;
 }
 
 /**********************MEDIAQUERIES*********************/
@@ -710,7 +710,7 @@ h3{
     font-family: var(--raleway);
     text-align: center;
     margin: 1.5rem 0;
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 300;
     color: var(--rojo);
 }
@@ -718,6 +718,9 @@ h3{
 .contenido__historia-multimedia{
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
 .contenido__historia-imagenenes{
@@ -767,10 +770,11 @@ h3{
 
 .link-contacto{
     margin-top: 4rem;
-    color: var(--blanco);
-    background-color: rgba(0,0,0, 0.7);
-    padding: .5rem 2rem;
-    border-radius: 6rem;
+    border: 1px solid black;
+    color: var(--negro);
+    background-color: var(--blanco);
+    padding: 1rem 3rem;
+    border-radius: 1.5rem;
     font-family: var(--raleway);
     font-size: 2rem;
 }
@@ -779,9 +783,9 @@ h3{
     cursor: pointer;
     color: var(--blanco);
     background-color: var(--negro);
-    transition: 0.7s;
+    transition: 0.9s;
     padding: 1rem 3rem;
-    border-radius: 6rem;
+    border-radius: 1.5rem;
     font-weight: 500;
 }
 
