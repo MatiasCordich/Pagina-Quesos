@@ -450,6 +450,7 @@ h3{
 /*HISTORIA*/
 
 @media (min-width: 320px) and (max-width:425px) {
+
     .titulos{
         text-align: center;
     }
@@ -469,36 +470,57 @@ h3{
         margin-bottom: 2rem;
     }
 
+    .parrafo{
+        width: 100%;
+    }
+
     .parrafo-1{
-        height: 30%;
+        height: 10%;
         font-size: 2rem;
         text-align: center;
     }
 
     .boton-titulo{
-        font-size: 2rem;
+        display: block;
+        font-size: 1.8rem;
     }
 
-    
+    .link-contacto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
 
 @media (min-width: 426px) and (max-width:768px) {
         .contenido__historia-multimedia{
             display: flex;
+            flex-direction: column;
             justify-content:space-between;
             align-items: flex-start;
 
         }
 
+        .contenido__historia-parrafo{
+            width: 20%;
+        }
+
 }
 
 @media (min-width: 769px) and (max-width:1024px) {
-            .contenido__historia-multimedia{
-                display: flex;
-                justify-content:space-between;
-                align-items: flex-start
+    .contenido__historia-multimedia{
+        display: flex;
+        align-items: flex-start;
+    }
 
-            }
+    .contenido__historia-imagenenes{
+        height: 100%;
+    }
+
+    .historia-imagen{
+        margin-bottom: 8rem;
+    }
 }
 
 
@@ -723,13 +745,10 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
+    margin-top: 2rem;
 }
 
-.contenido__historia-imagenenes{
-    width: 45%;
-   
-}
 
 .historia-imagen{
     border-radius: 2rem;
@@ -740,16 +759,18 @@ h3{
 
 
 .contenido__historia-parrafo{
-    width: 49%;
+    width: 50%;
     height: 50%;
     text-align: center; 
 }
 
 .parrafo{
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 1rem;
+    border-top: 1px solid var(--negro); ;
     border-bottom: 1px solid var(--negro);
 }
 
