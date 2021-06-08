@@ -146,7 +146,8 @@ h3{
 
 .btn-input{
     padding: 1rem 2rem;
-    border: none;
+    border: 1px solid white;
+    border-radius: 1.5rem;
     background: none;
     box-sizing: border-box;
 }
@@ -157,14 +158,10 @@ h3{
 
 .btn-input:hover{
     background-color: black;
-    
-    padding: 1rem 2rem;
-    border-radius: 6rem;
     transition: .9s;
 }
 
 .btn-input a:hover{
-    color: red;
     transition: .9s;
 }
 
@@ -187,7 +184,6 @@ h3{
 }
 
 .link-login a:hover{
-    color: red;
     transition: .9s;
 }
 
